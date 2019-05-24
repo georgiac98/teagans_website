@@ -128,7 +128,9 @@ a:hover {
     /*background: url("images/pawcolours.png") no-repeat center center;*/
     background-color: #ffff;
     text-align: center;
-    height: 480px;
+    /*height: 480px;*/
+    padding-top: 10%;
+    padding-bottom: 10%;
     margin: 0px;
 
 }
@@ -138,9 +140,7 @@ a:hover {
     font-family: 'Fredoka One', bold;
     color: #3a54b4;
     font-size: 2.5em;
-    margin-top: 120px;
-
-}
+   }
 
 
 .Teagan p {
@@ -157,10 +157,10 @@ a:hover {
 /*Dogtreats..................................  */
 
 .Dogtreats {
-    height: 700px;
+/*    height: 700px;*/
     background: url("images/treats.jpg") no-repeat center center;
     background-size: cover;
-}
+    }
 
 .aside_elements {
     font-size: 16px;
@@ -187,7 +187,6 @@ a:hover {
 }
 
 /*contactform..................................  */
-
 section.contactme {
     height: 700px;
 }
@@ -297,7 +296,7 @@ section.contactme {
 
 
     /*Media Query about Section..................................  */
-    .aboutme {
+ /*   .aboutme {
         background: url("images/pawcolours.png") center center;
         margin-top: -40px;
 
@@ -324,11 +323,11 @@ section.contactme {
     .button2 {
         font-size: 14px;
         margin-top: 10px;
-    }
+    }*/
 
 
     /*Media Query Dog Section..................................  */
-
+/*
     .Dogtreats {
         background: url("images/treats.jpg") right;
         background-size: cover;
@@ -356,7 +355,7 @@ section.contactme {
         line-height: 1.8em;
         margin-left: 10px;
 
-    }
+    }*/
 
 
     /*Media Query contact..................................  */
