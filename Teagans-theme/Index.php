@@ -22,7 +22,7 @@
         </div>
 
         <div class="item">
-            <img src="http://localhost/wordpress/wp-content/themes/Teagans-theme/images/header3.jpg" alt="board" class="img-responsive">
+            <img src="http://localhost/wordpress/wp-content/themes/Teagans-theme/images/Home_header3.jpg" alt="board" class="img-responsive">
         </div>
     </div>
 
@@ -96,25 +96,10 @@
                 <div class="contact-text">
                     <article id="contactform">
                         <h2>Get in Touch</h2>
-                        <p>Email: info@my-domain.com</p>
-                        <p>Phone: 123-456-7890</p>
-
-                        <h2>Send Me a Message</h2>
-                        <p>Feel free to reach out to place an order or ask any questions regarding my treats.</p>
-                        <form>
-                            <div>
-                                <label class="name" for="fullname">Name (required)</label> <br />
-                                <input type="text" name="fullname">
-                            </div>
-                            <div>
-                                <label class="email" for="email">Email (required)</label> <br />
-                                <input type="text" name="email">
-                            </div>
-                            <div>
-                                <label class="message" for="message">Message</label> <br />
-                                <textarea name="message" rows="4"></textarea>
-                            </div>
+                        
+                     <?php echo do_shortcode( '[contact-form-7 id="364" title="Untitled"]' ); ?>
                         </form>
+                    
                     </article>
                 </div>
             </section> <!-- End of contact me-->
